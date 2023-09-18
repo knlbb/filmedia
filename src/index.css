@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-[#1E1E1E] text-white overflow-hidden;
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBold" ;
+    src: url("./fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold" ;
+    src: url("./fonts/OpenSans-Bold.ttf");
+}
